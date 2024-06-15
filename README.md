@@ -131,7 +131,13 @@ HOME - AZURE
 
 ![image](https://github.com/Alpha1zln/FUTURE_READY_TALENT_MICROSOFT_INTERN.github.io/assets/98889077/2b0d8853-4ec1-4400-996f-6c3d4db6fde3)
 
+
+![image](https://github.com/Alpha1zln/FUTURE_READY_TALENT_MICROSOFT_INTERN_2024.github.io/assets/98889077/267fbc66-62a7-4409-875c-43d80cccc05c)
+
  
+![image](https://github.com/Alpha1zln/FUTURE_READY_TALENT_MICROSOFT_INTERN_2024.github.io/assets/98889077/84f9ce22-78b6-4434-8d21-957751e860eb)
+
+
 ![image](https://github.com/Alpha1zln/FUTURE_READY_TALENT_MICROSOFT_INTERN.github.io/assets/98889077/f76573e5-e55b-429a-a5a3-1557de95e206)
 
 ![image](https://github.com/Alpha1zln/FUTURE_READY_TALENT_MICROSOFT_INTERN.github.io/assets/98889077/3ec38eb7-e519-42c3-bf0c-48642b8cfab0)
@@ -141,8 +147,6 @@ HOME - AZURE
 
 ![image](https://github.com/Alpha1zln/FUTURE_READY_TALENT_MICROSOFT_INTERN.github.io/assets/98889077/42b0e6a7-1a23-4a5b-be80-27e8e45591fa)
 
-
-![image](https://github.com/Alpha1zln/FUTURE_READY_TALENT_MICROSOFT_INTERN_2024.github.io/assets/98889077/84f9ce22-78b6-4434-8d21-957751e860eb)
 
 
 
