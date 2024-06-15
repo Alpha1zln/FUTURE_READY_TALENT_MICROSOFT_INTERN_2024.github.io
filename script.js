@@ -7,38 +7,38 @@ function showSection(id) {
     document.getElementById(id).classList.add('active');
 }
 
-// // Mock doctors data
-// const doctors = [
-//     { id: 1, name: 'Dr. John Smith', specialization: 'Cardiology' },
-//     { id: 2, name: 'Dr. Jane Dale', specialization: 'Ophthalmology' },
-//     { id: 3, name: 'Dr. Emily Johnson', specialization: 'Dentistry' },
-//     { id: 4, name: 'Dr. Michael Brown', specialization: 'Pediatrics' },
-//     { id: 5, name: 'Dr. Sarah Davis', specialization: 'Psychology' },
-// ];
+// Mock doctors data
+const doctors = [
+    { id: 1, name: 'Dr. John Smith', specialization: 'Cardiology' },
+    { id: 2, name: 'Dr. Jane Dale', specialization: 'Ophthalmology' },
+    { id: 3, name: 'Dr. Emily Johnson', specialization: 'Dentistry' },
+    { id: 4, name: 'Dr. Michael Brown', specialization: 'Pediatrics' },
+    { id: 5, name: 'Dr. Sarah Davis', specialization: 'Psychology' },
+];
 
-// // Populate doctors list
-// const doctorList = document.getElementById('doctor-list');
-// const doctorSelect = document.getElementById('doctor-select');
-// doctors.forEach(doctor => {
-//     // Add to doctor list
-//     const doctorDiv = document.createElement('div');
-//     doctorDiv.classList.add('col-md-3');
-//     doctorDiv.innerHTML = `
-//         <div class="card mb-1">
-//             <div class="card-body">
-//                 <h5 class="card-title">${doctor.name}</h5>
-//                 <p class="card-text">${doctor.specialization}</p>
-//             </div>
-//         </div>
-//     `;
-//     doctorList.appendChild(doctorDiv);
+// Populate doctors list
+const doctorList = document.getElementById('doctor-list');
+const doctorSelect = document.getElementById('doctor-select');
+doctors.forEach(doctor => {
+    // Add to doctor list
+    const doctorDiv = document.createElement('div');
+    doctorDiv.classList.add('col-md-3');
+    doctorDiv.innerHTML = `
+        <div class="card mb-1">
+            <div class="card-body">
+                <h5 class="card-title">${doctor.name}</h5>
+                <p class="card-text">${doctor.specialization}</p>
+            </div>
+        </div>
+    `;
+    doctorList.appendChild(doctorDiv);
 
-//     // Add to doctor select
-//     const doctorOption = document.createElement('option');
-//     doctorOption.value = doctor.id;
-//     doctorOption.textContent = `${doctor.name} - ${doctor.specialization}`;
-//     doctorSelect.appendChild(doctorOption);
-// });
+    // Add to doctor select
+    const doctorOption = document.createElement('option');
+    doctorOption.value = doctor.id;
+    doctorOption.textContent = `${doctor.name} - ${doctor.specialization}`;
+    doctorSelect.appendChild(doctorOption);
+});
 
 // Handle booking form submission
 const bookingForm = document.getElementById('booking-form');
