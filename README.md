@@ -6,7 +6,7 @@ The Future Ready Talent Internship by Microsoft is a transformative program desi
 FRT [FUTURE_READY_TALENT] MICROSOFT INTERNSHIP - SUMMER 2024
 
 DEPLOYED : 
-https://alpha1zln.github.io/FUTURE_READY_TALENT_MICROSOFT_INTERN.github.io/
+https://alpha1zln.github.io/FUTURE_READY_TALENT_MICROSOFT_INTERN_2024.github.io
 
 
 1- FRT PROJECT TITLE : 
