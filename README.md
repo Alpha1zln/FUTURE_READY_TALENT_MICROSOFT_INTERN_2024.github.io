@@ -142,7 +142,8 @@ HOME - AZURE
 ![image](https://github.com/Alpha1zln/FUTURE_READY_TALENT_MICROSOFT_INTERN.github.io/assets/98889077/42b0e6a7-1a23-4a5b-be80-27e8e45591fa)
 
 
-![image](https://github.com/Alpha1zln/FUTURE_READY_TALENT_MICROSOFT_INTERN.github.io/assets/98889077/b63d4bec-d8ca-423b-95fc-676b7fe1cbf2)
+![image](https://github.com/Alpha1zln/FUTURE_READY_TALENT_MICROSOFT_INTERN_2024.github.io/assets/98889077/84f9ce22-78b6-4434-8d21-957751e860eb)
+
 
 
 
