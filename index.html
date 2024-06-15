@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Private Clinic</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700,300">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.1.2/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400&family=Finger+Paint&display=swap">
+</head>
+<body>
+    <header>
+        <h3>Welcome to Ultra Health Pvt. Clinic</h3>
+    </header>
+    
+    <nav>
+        <ul class="nav nav-tabs">
+            <li class="nav-item"><a class="nav-link active" href="#home" onclick="showSection('home')">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about" onclick="showSection('about')">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#doctors" onclick="showSection('doctors')">Doctors</a></li>
+            <li class="nav-item"><a class="nav-link" href="#booking" onclick="showSection('booking')">Booking</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact" onclick="showSection('contact')">Chatbot_Booking</a></li>
+            <li class="nav-item"><a class="nav-link" href="#chatbot" onclick="showChatbot('chatbot')">Chatbot_Health</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="content-section">
+        <div class="container">
+            <h3>Welcome to Our Clinic</h3>
+            <p>Experience top-notch medical services at our clinic, where we prioritize your health and well-being.
+            Our expert team of doctors and state-of-the-art facilities ensure the highest quality of care.
+            We offer comprehensive healthcare services across various specialties to meet all your medical needs.
+            Visit us and discover the difference of personalized, compassionate healthcare.</p>
+        
+            <h3>Key Features:</h3>
+            <ul>
+                <li>Advanced medical equipment</li>
+                <li>Highly qualified doctors</li>
+                <li>Comprehensive healthcare services</li>
+                <li>Patient-centered care</li>
+                <li>Convenient location</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="about" class="content-section">
+        <div class="container">
+            <h3>About Our Clinic</h3>
+            <p>Visit one of the best clinics in the vicinity, featuring top-notch facilities and the best doctors from AIIMS. Our clinic is dedicated to providing comprehensive healthcare services with a focus on excellence and patient satisfaction.</p>
+            <p>Why choose us?</p>
+            <ul>
+                <li>We have a team of highly qualified and experienced doctors from AIIMS, ensuring you receive the best medical care.</li>
+                <li>Our clinic is equipped with state-of-the-art medical technology and advanced diagnostic tools.</li>
+                <li>We offer a wide range of medical services, including cardiology, ophthalmology, dentistry, pediatrics, and psychology.</li>
+                <li>Patient-centered care is our priority, and we strive to provide a comfortable and welcoming environment.</li>
+                <li>We maintain high standards of transparency and ethical practices in all our medical procedures.</li>
+                <li>Our clinic is easily accessible and well-connected to the city, ensuring convenient visits for our patients.</li>
+                <li>We have a dedicated team of 50 staff members who are committed to supporting your healthcare journey.</li>
+                <li>Our reputation for excellence is built on years of providing high-quality medical care.</li>
+                <li>We utilize the latest advancements in medical science to deliver effective and efficient treatments.</li>
+                <li>Your health and well-being are our utmost priorities, and we are here to serve you with compassion and professionalism.</li>
+            </ul>
+    
+        </div>
+    </section>
+
+    <section id="doctors" class="content-section">
+        <div class="container">
+            <h3>Our Doctors</h3>
+            <div class="row" id="doctor-list">
+                <div class="col-md-8">
+                    <div class="card doctor-card mb-2">
+                        <div class="card-body">
+                            <h5 class="card-title">Dr. John Han</h5>
+                            <p class="card-text">Cardiologist</p>
+                            <p class="card-text">MBBS, AIIMS</p>
+                        </div>
+                        <img src="images/doctors/doctor1.jpg" class="card-img-bottom" alt="Doctor 1">
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="card doctor-card mb-2">
+                        <div class="card-body">
+                            <h5 class="card-title">Dr. Jane Smith</h5>
+                            <p class="card-text">Ophthalmologist</p>
+                            <p class="card-text">MBBS, AIIMS</p>
+                        </div>
+                        <img src="images/doctors/doctor2.jpg" class="card-img-bottom" alt="Doctor 2">
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="card doctor-card mb-2">
+                        <div class="card-body">
+                            <h5 class="card-title">Dr. Emily Johnson</h5>
+                            <p class="card-text">Pediatrics</p>
+                            <p class="card-text">MBBS, AIIMS</p>
+                        </div>
+                        <img src="images/doctors/doctor3.jpg" class="card-img-bottom" alt="Doctor 3">
+                    </div>
+                </div>
+
+                <div class="col-md-8">
+                    <div class="card doctor-card mb-2">
+                        <div class="card-body">
+                            <h5 class="card-title">Dr. Ford Johnson</h5>
+                            <p class="card-text">Pediatrics</p>
+                            <p class="card-text">MBBS, AIIMS</p>
+                        </div>
+                        <img src="images/doctors/doctor4.jpg" class="card-img-bottom" alt="Doctor 3">
+                    </div>
+                </div>
+
+                <div class="col-md-8">
+                    <div class="card doctor-card mb-2">
+                        <div class="card-body">
+                            <h5 class="card-title">Dr. Michael Jord</h5>
+                            <p class="card-text">Neurologist</p>
+                            <p class="card-text">MBBS, AIIMS</p>
+                        </div>
+                        <img src="images/doctors/doctor5.jpg" class="card-img-bottom" alt="Doctor">
+                    </div>
+                </div>
+
+                <!-- <div class="col-md-8">
+                    <div class="card doctor-card mb-2">
+                        <div class="card-body">
+                            <h5 class="card-title">Dr. Ford Johnson</h5>
+                            <p class="card-text">Pscychologist</p>
+                        </div>
+                        <img src="images/doctors/doctor5.jpg" class="card-img-bottom" alt="Doctor">
+                    </div>
+                </div> -->
+                <!-- Add more doctors as needed -->
+            </div>
+        </div>
+    </section>
+
+    <section id="booking" class="content-section">
+        <div class="container">
+            <h3>Book an Appointment</h3>
+            <form id="booking-form">
+                <div class="form-group">
+                    <label for="doctor-select">Choose a doctor:</label>
+                    <select id="doctor-select" class="form-control">
+                        <!-- Doctor options will be populated here -->
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="date">Choose a date:</label>
+                    <input type="date" id="date" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="time">Choose a time:</label>
+                    <input type="time" id="time" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-primary">Book Appointment</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="contact" class="content-section">
+        <div class="container">
+        </div>
+
+        <div class="card">
+            <div id="header">
+              <h3>Chatbot!</h3>
+            </div>
+            <div id="message-section">
+              <div class="message" id="bot"><span id="bot-response">Hello!  How can I help you! </span></div>
+            </div>
+            <div id="input-section">
+              <input id="input" type="text" placeholder="Type a message" autocomplete="off" autofocus="autofocus"/>
+              <button class="send" onclick="sendMessage()">
+                <div class="circle"><i class="zmdi zmdi-mail-send"></i></div>
+              </button>
+            </div>
+          </div>
+          
+        <link rel="stylesheet" href="style.css">
+        <script src="chatbot.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    </section>
+
+    <div class="homepage_class" id="homepage_content">        
+        <p>
+            Welcome to our private clinic where we offer top-notch medical services in various specialties including cardiology, ophthalmology, dentistry, pediatrics, and psychology.
+            <br>
+            Our experienced doctors are committed to providing the best healthcare services with a patient-centered approach.
+        </p>        
+    </div> 
+
+    <section id="chatbot" class="content-section">  
+        <!-- Chatbot modal -->    
+        <div class="card">
+            <div id="header">
+              <h3>Chatbot!</h3>
+            </div>
+            <div id="message-section">
+              <div class="message" id="bot"><span id="bot-response">Hello! How can I help you?</span></div>
+            </div>
+            <div id="input-section">
+              <input id="input" type="text" placeholder="Type a message" autocomplete="on" autofocus="autofocus"/>
+              <button onclick="sendMessage()">
+                <div class="circle"><i class="zmdi zmdi-mail-send"></i></div>
+              </button>
+            </div>
+          </div>
+  
+        <link rel="stylesheet" href="style.css">
+        <script src="chatbot.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+   </section>  
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 AlphaZln Pvt. Clinic. All rights reserved.</p>
+        </div>
+    </footer>
+
+   <!-- Bootstrap JS and jQuery -->
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   <!-- Custom JavaScript -->
+   <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,181 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    /* display: flex;
+    justify-content: center; */
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0px 10px 0px ;
+}
+
+nav ul {
+    background-color: #333333;
+    overflow: hidden;
+    color: white;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px ;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+section {
+    display: none;
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Chatbot modal styles */
+/* Add styles for date picker */
+#chatbot-modal {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 300px;
+    max-height: 80vh;
+    overflow-y: auto;
+    z-index: 1000;
+    display: none;
+}
+
+#chatbot-modal.show {
+    display: block;
+}
+
+#chatbot-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#chatbot-body {
+    padding: 20px;
+}
+
+#message-section {
+    margin-bottom: 20px;
+    overflow-y: auto;
+    max-height: 300px;
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#user {
+    background-color: #f1f0f0;
+    text-align: right;
+}
+
+#bot {
+    background-color: #e0f7fa;
+}
+
+#chatbot-form {
+    display: flex;
+    align-items: center;
+}
+
+#chatbot-form input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+#chatbot-form button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+#chatbot-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Flatpickr styles */
+.flatpickr-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+}
+
+.flatpickr-calendar {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.flatpickr-time {
+    width: auto !important;
+    max-width: none !important;
+}
+
+
+.homepage_class{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    border-radius: 80%;
+} 
+
+
+.doctor-card img {
+    width: 50%;
+    height: 60%;
+    object-fit: cover;
+}
+
+.doctor-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
