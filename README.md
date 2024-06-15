@@ -51,7 +51,7 @@ By leveraging Azure's Healthbot service, we ensure scalability, reliability, and
 
 5-
 DEPLOYED ON GITHUB : 
-https://alpha1zln.github.io/FUTURE_READY_TALENT_MICROSOFT_INTERN.github.io/
+https://alpha1zln.github.io/FUTURE_READY_TALENT_MICROSOFT_INTERN_2024.github.io
 
 It is running successfully on GITHUB.
 
