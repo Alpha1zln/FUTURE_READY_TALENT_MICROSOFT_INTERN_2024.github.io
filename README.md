@@ -10,7 +10,7 @@ https://alpha1zln.github.io/FUTURE_READY_TALENT_MICROSOFT_INTERN_2024.github.io
 
 
 1- FRT PROJECT TITLE : 
-Health Clinic supported by healthbot created by AZURE QNA MAKER [for health related Q&A] and chatbot [manual , for booking]
+Health Clinic supported by healthbot created by AZURE AI SVC / Health bot / QNA MAKER [for health related Q&A] and chatbot [manual , for booking]
 
 INDUSTRY: "HEALTH"
 
